@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "AI Threat Detection URL Scanner",
+  "version": "1.0",
+  "description": "Sends visited URLs to your local AI Threat Detection backend for analysis.",
+  "permissions": ["webNavigation", "activeTab", "scripting"],
+  "host_permissions": ["<all_urls>"],
+  "background": {
+    "service_worker": "background.js"
+  }
+} 

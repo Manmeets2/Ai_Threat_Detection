@@ -1,0 +1,24 @@
+{
+  "name": "ai-threat-detection-system",
+  "version": "1.0.0",
+  "description": "AI-powered cybersecurity threat detection system",
+  "main": "simple_app.py",
+  "scripts": {
+    "start": "python simple_app.py",
+    "dev": "python simple_app.py",
+    "build": "echo 'No build step required for Python Flask app'",
+    "vercel-build": "echo 'Frontend deployment on Vercel'"
+  },
+  "keywords": [
+    "ai",
+    "threat-detection",
+    "cybersecurity",
+    "flask",
+    "python"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  }
+} 
