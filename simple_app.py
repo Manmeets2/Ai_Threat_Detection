@@ -464,8 +464,11 @@ if __name__ == '__main__':
     print("🔍 Health Check: http://localhost:5000/api/health")
     print("🧪 Test Endpoint: http://localhost:5000/api/detect")
     
+    port = int(os.getenv('PORT', 5000))
+    host = os.getenv('HOST', '0.0.0.0')
+    
     app.run(
-        host=os.getenv('HOST', '0.0.0.0'),
-        port=int(os.getenv('PORT', 5000)),
+        host=host,
+        port=port,
         debug=os.getenv('DEBUG', 'False').lower() == 'true'
     ) 
