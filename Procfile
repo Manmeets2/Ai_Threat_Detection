@@ -1,1 +1,1 @@
-web: python3 simple_app.py 
+web: python simple_app.py 
