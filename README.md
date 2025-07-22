@@ -7,23 +7,24 @@ markdown
 
 A modern, AI-powered cybersecurity threat detection system built with Python and JavaScript.
 
-
  🖼️ Preview
 
-📊 Dashboard Overview
+ 📊 Dashboard Overview
 
-[Dashboard Overview](./ai1.jpg)
-🧠 Threat Detection Form
+![Dashboard](images/ai1.jpg)
 
-![Threat Detection Form](./ai2.jpg)
+ 🧠 Threat Detection Form
 
-📈 Analytics and Charts
+![Threat Detection Form](images/ai2.jpg)
 
-![Analytics Page](./ai3.jpg)
+ 📈 Analytics and Charts
 
-🧾 Threat Logs and History
+![Analytics](images/ai3.jpg)
 
-[Threat Logs](./ai4.jpg)
+ 🧾 Threat Logs and History
+
+![Threat Logs](images/ai4.jpg)
+
 
 
 ## 🚀 Features
